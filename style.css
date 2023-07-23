@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: rgb(80, 190, 80);
+    /* height: 400vh; */
+}
+
+.container{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    height: 280vh;
+    justify-content: space-evenly;
+}
+
+.container h1{
+    font-size: 3.5rem;
+    color: rgb(125, 93, 214);
+    text-decoration: underline;
+}
+
+.form{
+    width: 60%;
+    height: 220vh;
+    background-color: white;
+    border-radius: 6px;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 6px 6px rgba(0, 0, 0, .25);
+}
+
+.p1{
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.name{
+    width: 100%;
+    height: 7vh;
+    font-size: 1.5rem;
+    border-radius: 4px;
+    padding: 0px 15px;
+}
+
+.info1{
+    width: 92%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    /* background-color: red; */
+    margin-top: 40px;
+}
+
+.p2{
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.email{
+    width: 100%;
+    height: 7vh;
+    font-size: 1.5rem;
+    border-radius: 4px;
+    padding: 0px 15px;
+}
+
+.info2{
+    width: 92%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    /* background-color: red; */
+    margin-top: 20px;
+}
+
+.p3{
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.age{
+    width: 100%;
+    height: 7vh;
+    font-size: 1.5rem;
+    border-radius: 4px;
+    padding: 0px 15px;
+}
+
+.info3{
+    width: 92%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    /* background-color: red; */
+    margin-top: 20px;
+}
+
+
+.p4{
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.desc{
+    width: 100%;
+    height: 7vh;
+    font-size: 1.5rem;
+    border-radius: 4px;
+    padding: 0px 15px;
+    cursor: pointer;
+}
+
+.info4{
+    width: 92%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    /* background-color: red; */
+    margin-top: 20px;
+}
+
+.p5{
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.radio-btn{
+    width: 100%;
+    height: 10vh;
+    font-size: 1.4rem;
+    border-radius: 4px;
+    padding: 0px 15px;
+    /* cursor: pointer; */
+    margin-top: 10px;
+}
+
+.radio-btn input{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+#Yes{
+    margin-bottom: 20px;
+}
+
+#No{
+    margin-bottom: 20px;
+}
+
+#Maybe{
+    margin-bottom: 20px;
+}
+
+
+.info5{
+    width: 92%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    /* background-color: red; */
+    margin-top: 30px;
+}
+
+.p6{
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.checkbox-btn{
+    width: 100%;
+    height: 10vh;
+    font-size: 1.4rem;
+    border-radius: 4px;
+    padding: 0px 15px;
+    /* cursor: pointer; */
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    /* overflow: hidden; */
+}
+
+.checkbox-btn input{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.info6{
+    width: 92%;
+    height: 67vh;
+    display: flex;
+    /* justify-content: center; */
+    align-items: flex-start;
+    flex-direction: column;
+    /* background-color: red; */
+    margin-top: 70px;
+    /* overflow: hidden; */
+}
+
+#C{
+    margin-bottom: 20px;
+}
+
+#CPP{
+    margin-bottom: 20px;
+}
+
+#Cs{
+    margin-bottom: 20px;
+}
+
+#py{
+    margin-bottom: 20px;
+}
+
+#java{
+    margin-bottom: 20px;
+}
+
+#js{
+    margin-bottom: 20px;
+}
+
+#rc{
+    margin-bottom: 20px;
+}
+
+#ag{
+    margin-bottom: 20px;
+}
+
+#dj{
+    margin-bottom: 20px;
+}
+
+#sp{
+    margin-bottom: 20px;
+}
+
+.p7{
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.cmnts{
+    width: 100%;
+    height: 10vh;
+    font-size: 1.5rem;
+    border-radius: 4px;
+    padding: 10px 15px;
+}
+
+.info7{
+    width: 92%;
+    height: 27vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    /* background-color: red; */
+    /* margin-top: 500px; */
+    
+}
+
+.sub-btn{
+    width: 92%;
+    height: 17vh;
+   
+}
+
+.sub-btn button{
+    width: 100%;
+    height: 8vh;
+    background-color: rgb(78, 202, 78);
+    font-size: 2rem;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 2px solid transparent;
+    transition: .4s;
+}
+
+.sub-btn button:hover{
+    background-color: white;
+    border: 2px solid rgb(78, 202, 78);
+    color: rgb(78, 202, 78);
+}
+
